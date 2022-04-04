@@ -28,7 +28,7 @@ Note: After this step, 2 new files are created (`.firebaserc` and `firebase.json
   
   ```
   // Building flutter in (HTML & JavaScript)
-  flutter build web
+  flutter build web --no-sound-null-safety 
   
   // Deployment 
   firebase deploy
